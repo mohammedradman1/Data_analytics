@@ -5,3 +5,5 @@ The Following models have been used:
   4- K Nearest Neighbour (KNN) Classifier
   5- Support Vector Machine (SVM) Classifier
   6- Naive Bayes Classifier
+  7- Logistic Regression Classifier
+  8- Gradient Boosting Classifier
