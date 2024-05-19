@@ -1,0 +1,16 @@
+We will use the following clustering models to test them on the datasets:
+1. K-means
+2. AgglomerativeClustering
+3. DBSCAN
+4. SpectralClustering
+
+
+This project aims to use the course studied clustering models that have been presented. 
+The used dataset is articles dataset which consists of the following:
+1. Business Dataset: 2000 articles
+2. Education Dataset: 2000 articles
+3. Entertainment Dataset: 2000 article
+4. Sports Dataset: 2000 article
+5. Technology Dataset: 2000 article
+
+These datasets add up to 10,000 articles that we can divided using stratified random sampling to create a smaller dataset consisting of a thousand article.
