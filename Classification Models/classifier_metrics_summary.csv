@@ -1,0 +1,321 @@
+,Metric,Algorithm,Value,Dataset_Size,Technique
+0,Accuracy,ZeroR,0.7564282374941561,df_2k,holdout
+1,Accuracy,ZeroR,0.6842,df_5k,holdout
+2,Accuracy,ZeroR,0.6912666666666667,df_15k,holdout
+3,Accuracy,ZeroR,0.68988,df_50k,holdout
+4,Accuracy,OneR,0.7564282374941561,df_2k,holdout
+5,Accuracy,OneR,0.6842,df_5k,holdout
+6,Accuracy,OneR,0.6912666666666667,df_15k,holdout
+7,Accuracy,OneR,0.68988,df_50k,holdout
+8,Accuracy,Decision Tree,0.8387850467289719,df_2k,holdout
+9,Accuracy,Decision Tree,0.621,df_5k,holdout
+10,Accuracy,Decision Tree,0.6103333333333333,df_15k,holdout
+11,Accuracy,Decision Tree,0.6113,df_50k,holdout
+12,Precision,Decision Tree,0.6818181818181818,df_2k,holdout
+13,Precision,Decision Tree,0.422360248447205,df_5k,holdout
+14,Precision,Decision Tree,0.3651911468812877,df_15k,holdout
+15,Precision,Decision Tree,0.3778125,df_50k,holdout
+16,Recall,Decision Tree,0.6880733944954128,df_2k,holdout
+17,Recall,Decision Tree,0.4133738601823708,df_5k,holdout
+18,Recall,Decision Tree,0.4028856825749167,df_15k,holdout
+19,Recall,Decision Tree,0.3893719806763285,df_50k,holdout
+20,Accuracy,Decision Tree,0.8424290290026765,df_2k,crossValidation
+21,Accuracy,Decision Tree,0.6083999999999999,df_5k,crossValidation
+22,Accuracy,Decision Tree,0.6142,df_15k,crossValidation
+23,Accuracy,Decision Tree,0.60944,df_50k,crossValidation
+24,Precision,Decision Tree,0.6830837752706383,df_2k,crossValidation
+25,Precision,Decision Tree,0.3856318932412018,df_5k,crossValidation
+26,Precision,Decision Tree,0.3785801583008051,df_15k,crossValidation
+27,Precision,Decision Tree,0.3752913933583112,df_50k,crossValidation
+28,Recall,Decision Tree,0.6742539104428846,df_2k,crossValidation
+29,Recall,Decision Tree,0.4021828650734477,df_5k,crossValidation
+30,Recall,Decision Tree,0.3900703614108066,df_15k,crossValidation
+31,Recall,Decision Tree,0.3902106513602077,df_50k,crossValidation
+32,Accuracy,GradientBoosting,0.8878504672897196,df_2k,holdout
+33,Accuracy,GradientBoosting,0.702,df_5k,holdout
+34,Accuracy,GradientBoosting,0.6933333333333334,df_15k,holdout
+35,Accuracy,GradientBoosting,0.7029,df_50k,holdout
+36,Precision,GradientBoosting,0.8192771084337349,df_2k,holdout
+37,Precision,GradientBoosting,0.52,df_5k,holdout
+38,Precision,GradientBoosting,0.5229885057471264,df_15k,holdout
+39,Precision,GradientBoosting,0.5663140764849471,df_50k,holdout
+40,Recall,GradientBoosting,0.6732673267326733,df_2k,holdout
+41,Recall,GradientBoosting,0.2565789473684211,df_5k,holdout
+42,Recall,GradientBoosting,0.1944444444444444,df_15k,holdout
+43,Recall,GradientBoosting,0.2220804084237396,df_50k,holdout
+44,Accuracy,GradientBoosting,0.8938616120398404,df_2k,crossValidation
+45,Accuracy,GradientBoosting,0.6978,df_5k,crossValidation
+46,Accuracy,GradientBoosting,0.7074666666666667,df_15k,crossValidation
+47,Accuracy,GradientBoosting,0.7082999999999999,df_50k,crossValidation
+48,Precision,GradientBoosting,0.8183394675618928,df_2k,crossValidation
+49,Precision,GradientBoosting,0.5496014534016868,df_5k,crossValidation
+50,Precision,GradientBoosting,0.5680044238861426,df_15k,crossValidation
+51,Precision,GradientBoosting,0.5775627657996324,df_50k,crossValidation
+52,Recall,GradientBoosting,0.7286184545529862,df_2k,crossValidation
+53,Recall,GradientBoosting,0.2535237964844439,df_5k,crossValidation
+54,Recall,GradientBoosting,0.2186467807519139,df_15k,crossValidation
+55,Recall,GradientBoosting,0.2214618505073904,df_50k,crossValidation
+56,Accuracy,KNN3,0.8014018691588785,df_2k,holdout
+57,Accuracy,KNN3,0.644,df_5k,holdout
+58,Accuracy,KNN3,0.647,df_15k,holdout
+59,Accuracy,KNN3,0.6494,df_50k,holdout
+60,Precision,KNN3,0.6666666666666666,df_2k,holdout
+61,Precision,KNN3,0.4436090225563909,df_5k,holdout
+62,Precision,KNN3,0.4013605442176871,df_15k,holdout
+63,Precision,KNN3,0.4043973301923832,df_50k,holdout
+64,Recall,KNN3,0.4545454545454545,df_2k,holdout
+65,Recall,KNN3,0.3619631901840491,df_5k,holdout
+66,Recall,KNN3,0.3227571115973742,df_15k,holdout
+67,Recall,KNN3,0.3411725736999006,df_50k,holdout
+68,Accuracy,KNN5,0.794392523364486,df_2k,holdout
+69,Accuracy,KNN5,0.649,df_5k,holdout
+70,Accuracy,KNN5,0.677,df_15k,holdout
+71,Accuracy,KNN5,0.6627,df_50k,holdout
+72,Precision,KNN5,0.6666666666666666,df_2k,holdout
+73,Precision,KNN5,0.430327868852459,df_5k,holdout
+74,Precision,KNN5,0.4546850998463901,df_15k,holdout
+75,Precision,KNN5,0.4338737201365187,df_50k,holdout
+76,Recall,KNN5,0.3396226415094339,df_2k,holdout
+77,Recall,KNN5,0.3312302839116719,df_5k,holdout
+78,Recall,KNN5,0.3252747252747253,df_15k,holdout
+79,Recall,KNN5,0.3320274240940254,df_50k,holdout
+80,Accuracy,KNN7,0.7990654205607477,df_2k,holdout
+81,Accuracy,KNN7,0.671,df_5k,holdout
+82,Accuracy,KNN7,0.6663333333333333,df_15k,holdout
+83,Accuracy,KNN7,0.6678,df_50k,holdout
+84,Precision,KNN7,0.7391304347826086,df_2k,holdout
+85,Precision,KNN7,0.45,df_5k,holdout
+86,Precision,KNN7,0.4221854304635761,df_15k,holdout
+87,Precision,KNN7,0.4394749635391347,df_50k,holdout
+88,Recall,KNN7,0.3148148148148148,df_2k,holdout
+89,Recall,KNN7,0.3224755700325732,df_5k,holdout
+90,Recall,KNN7,0.2811466372657111,df_15k,holdout
+91,Recall,KNN7,0.2941750732183534,df_50k,holdout
+92,Accuracy,KNN9,0.8271028037383178,df_2k,holdout
+93,Accuracy,KNN9,0.657,df_5k,holdout
+94,Accuracy,KNN9,0.6793333333333333,df_15k,holdout
+95,Accuracy,KNN9,0.6828,df_50k,holdout
+96,Precision,KNN9,0.6666666666666666,df_2k,holdout
+97,Precision,KNN9,0.4550898203592814,df_5k,holdout
+98,Precision,KNN9,0.4751491053677932,df_15k,holdout
+99,Precision,KNN9,0.4613831398283695,df_50k,holdout
+100,Recall,KNN9,0.3736263736263736,df_2k,holdout
+101,Recall,KNN9,0.2317073170731707,df_5k,holdout
+102,Recall,KNN9,0.2550693703308431,df_15k,holdout
+103,Recall,KNN9,0.302749254720106,df_50k,holdout
+104,Accuracy,KNN11,0.7733644859813084,df_2k,holdout
+105,Accuracy,KNN11,0.652,df_5k,holdout
+106,Accuracy,KNN11,0.6886666666666666,df_15k,holdout
+107,Accuracy,KNN11,0.6682,df_50k,holdout
+108,Precision,KNN11,0.6428571428571429,df_2k,holdout
+109,Precision,KNN11,0.4646464646464646,df_5k,holdout
+110,Precision,KNN11,0.5091911764705882,df_15k,holdout
+111,Precision,KNN11,0.4606299212598425,df_50k,holdout
+112,Recall,KNN11,0.1714285714285714,df_2k,holdout
+113,Recall,KNN11,0.2754491017964072,df_5k,holdout
+114,Recall,KNN11,0.2934322033898305,df_15k,holdout
+115,Recall,KNN11,0.2577092511013216,df_50k,holdout
+116,Accuracy,KNN13,0.7990654205607477,df_2k,holdout
+117,Accuracy,KNN13,0.653,df_5k,holdout
+118,Accuracy,KNN13,0.678,df_15k,holdout
+119,Accuracy,KNN13,0.6818,df_50k,holdout
+120,Precision,KNN13,0.75,df_2k,holdout
+121,Precision,KNN13,0.4468085106382978,df_5k,holdout
+122,Precision,KNN13,0.4742489270386266,df_15k,holdout
+123,Precision,KNN13,0.4686601495112133,df_50k,holdout
+124,Recall,KNN13,0.3055555555555556,df_2k,holdout
+125,Recall,KNN13,0.2568807339449541,df_5k,holdout
+126,Recall,KNN13,0.2346072186836518,df_15k,holdout
+127,Recall,KNN13,0.2652131467621217,df_50k,holdout
+128,Accuracy,KNN15,0.8130841121495327,df_2k,holdout
+129,Accuracy,KNN15,0.668,df_5k,holdout
+130,Accuracy,KNN15,0.6713333333333333,df_15k,holdout
+131,Accuracy,KNN15,0.6848,df_50k,holdout
+132,Precision,KNN15,0.6923076923076923,df_2k,holdout
+133,Precision,KNN15,0.4722222222222222,df_5k,holdout
+134,Precision,KNN15,0.4451476793248945,df_15k,holdout
+135,Precision,KNN15,0.4644522144522144,df_50k,holdout
+136,Recall,KNN15,0.2842105263157894,df_2k,holdout
+137,Recall,KNN15,0.2639751552795031,df_5k,holdout
+138,Recall,KNN15,0.2259100642398287,df_15k,holdout
+139,Recall,KNN15,0.263036303630363,df_50k,holdout
+140,Accuracy,KNN3,0.8106204203413627,df_2k,crossValidation
+141,Accuracy,KNN3,0.6436000000000001,df_5k,crossValidation
+142,Accuracy,KNN3,0.6490666666666668,df_15k,crossValidation
+143,Accuracy,KNN3,0.6463599999999999,df_50k,crossValidation
+144,Precision,KNN3,0.6706537475934028,df_2k,crossValidation
+145,Precision,KNN3,0.4220188697683764,df_5k,crossValidation
+146,Precision,KNN3,0.4153102844991037,df_15k,crossValidation
+147,Precision,KNN3,0.4140161566812131,df_50k,crossValidation
+148,Recall,KNN3,0.4171707672220532,df_2k,crossValidation
+149,Recall,KNN3,0.3470435533279318,df_5k,crossValidation
+150,Recall,KNN3,0.3357367460602956,df_15k,crossValidation
+151,Recall,KNN3,0.3379423256860684,df_50k,crossValidation
+152,Accuracy,KNN5,0.808286165591681,df_2k,crossValidation
+153,Accuracy,KNN5,0.6646000000000001,df_5k,crossValidation
+154,Accuracy,KNN5,0.6627999999999998,df_15k,crossValidation
+155,Accuracy,KNN5,0.6604,df_50k,crossValidation
+156,Precision,KNN5,0.685377473734149,df_2k,crossValidation
+157,Precision,KNN5,0.4587758346350679,df_5k,crossValidation
+158,Precision,KNN5,0.4336787643318199,df_15k,crossValidation
+159,Precision,KNN5,0.4340578494813432,df_50k,crossValidation
+160,Recall,KNN5,0.3799801086236031,df_2k,crossValidation
+161,Recall,KNN5,0.3342635797442614,df_5k,crossValidation
+162,Recall,KNN5,0.3005927866392076,df_15k,crossValidation
+163,Recall,KNN5,0.3135319372467041,df_50k,crossValidation
+164,Accuracy,KNN7,0.8082905532885789,df_2k,crossValidation
+165,Accuracy,KNN7,0.6719999999999999,df_5k,crossValidation
+166,Accuracy,KNN7,0.6656,df_15k,crossValidation
+167,Accuracy,KNN7,0.67054,df_50k,crossValidation
+168,Precision,KNN7,0.7115987252702024,df_2k,crossValidation
+169,Precision,KNN7,0.4730412611648368,df_5k,crossValidation
+170,Precision,KNN7,0.4341075182864354,df_15k,crossValidation
+171,Precision,KNN7,0.4532340958715795,df_50k,crossValidation
+172,Recall,KNN7,0.3401765794052069,df_2k,crossValidation
+173,Recall,KNN7,0.3253423120437832,df_5k,crossValidation
+174,Recall,KNN7,0.2768958768978952,df_15k,crossValidation
+175,Recall,KNN7,0.3034108741209406,df_50k,crossValidation
+176,Accuracy,KNN9,0.8097033916897022,df_2k,crossValidation
+177,Accuracy,KNN9,0.6742,df_5k,crossValidation
+178,Accuracy,KNN9,0.6722,df_15k,crossValidation
+179,Accuracy,KNN9,0.67644,df_50k,crossValidation
+180,Precision,KNN9,0.7343085491506545,df_2k,crossValidation
+181,Precision,KNN9,0.4776992970599567,df_5k,crossValidation
+182,Precision,KNN9,0.446173462697731,df_15k,crossValidation
+183,Precision,KNN9,0.4653103504495662,df_50k,crossValidation
+184,Recall,KNN9,0.3397496157024329,df_2k,crossValidation
+185,Recall,KNN9,0.306549951828055,df_5k,crossValidation
+186,Recall,KNN9,0.2603595817878369,df_15k,crossValidation
+187,Recall,KNN9,0.29073718735957,df_50k,crossValidation
+188,Accuracy,KNN11,0.809233908121627,df_2k,crossValidation
+189,Accuracy,KNN11,0.6702000000000001,df_5k,crossValidation
+190,Accuracy,KNN11,0.6744666666666665,df_15k,crossValidation
+191,Accuracy,KNN11,0.6793199999999999,df_50k,crossValidation
+192,Precision,KNN11,0.7460893246187364,df_2k,crossValidation
+193,Precision,KNN11,0.4686863898991539,df_5k,crossValidation
+194,Precision,KNN11,0.4505829773048065,df_15k,crossValidation
+195,Precision,KNN11,0.4711253560557885,df_50k,crossValidation
+196,Recall,KNN11,0.3286828843129682,df_2k,crossValidation
+197,Recall,KNN11,0.2891806253251802,df_5k,crossValidation
+198,Recall,KNN11,0.2541024875024521,df_15k,crossValidation
+199,Recall,KNN11,0.2786604933562041,df_50k,crossValidation
+200,Accuracy,KNN13,0.8059650739326927,df_2k,crossValidation
+201,Accuracy,KNN13,0.6696000000000001,df_5k,crossValidation
+202,Accuracy,KNN13,0.6782666666666667,df_15k,crossValidation
+203,Accuracy,KNN13,0.6818000000000001,df_50k,crossValidation
+204,Precision,KNN13,0.7465465090465091,df_2k,crossValidation
+205,Precision,KNN13,0.4623664740098333,df_5k,crossValidation
+206,Precision,KNN13,0.4603208801064323,df_15k,crossValidation
+207,Precision,KNN13,0.4770770056700887,df_50k,crossValidation
+208,Recall,KNN13,0.3038251990110133,df_2k,crossValidation
+209,Recall,KNN13,0.2739575300660736,df_5k,crossValidation
+210,Recall,KNN13,0.2455236746412119,df_15k,crossValidation
+211,Recall,KNN13,0.2719332475325289,df_50k,crossValidation
+212,Accuracy,KNN15,0.7952108288359441,df_2k,crossValidation
+213,Accuracy,KNN15,0.6698000000000001,df_5k,crossValidation
+214,Accuracy,KNN15,0.6845999999999999,df_15k,crossValidation
+215,Accuracy,KNN15,0.6829400000000001,df_50k,crossValidation
+216,Precision,KNN15,0.6995571671588502,df_2k,crossValidation
+217,Precision,KNN15,0.4630266920177588,df_5k,crossValidation
+218,Precision,KNN15,0.479470674196593,df_15k,crossValidation
+219,Precision,KNN15,0.4795014540847149,df_50k,crossValidation
+220,Recall,KNN15,0.2698765166805848,df_2k,crossValidation
+221,Recall,KNN15,0.2712347529432876,df_5k,crossValidation
+222,Recall,KNN15,0.2492923864077894,df_15k,crossValidation
+223,Recall,KNN15,0.2637517299315098,df_50k,crossValidation
+224,Accuracy,Logistic Regression,0.8738317757009346,df_2k,holdout
+225,Accuracy,Logistic Regression,0.712,df_5k,holdout
+226,Accuracy,Logistic Regression,0.7076666666666667,df_15k,holdout
+227,Accuracy,Logistic Regression,0.7042,df_50k,holdout
+228,Precision,Logistic Regression,0.8082191780821918,df_2k,holdout
+229,Precision,Logistic Regression,0.5918367346938775,df_5k,holdout
+230,Precision,Logistic Regression,0.6387096774193548,df_15k,holdout
+231,Precision,Logistic Regression,0.5713172252533125,df_50k,holdout
+232,Recall,Logistic Regression,0.5959595959595959,df_2k,holdout
+233,Recall,Logistic Regression,0.2761904761904762,df_5k,holdout
+234,Recall,Logistic Regression,0.205607476635514,df_15k,holdout
+235,Recall,Logistic Regression,0.233365170327921,df_50k,holdout
+236,Accuracy,Logistic Regression,0.8615791321135535,df_2k,crossValidation
+237,Accuracy,Logistic Regression,0.699,df_5k,crossValidation
+238,Accuracy,Logistic Regression,0.7076,df_15k,crossValidation
+239,Accuracy,Logistic Regression,0.70686,df_50k,crossValidation
+240,Precision,Logistic Regression,0.795472386749178,df_2k,crossValidation
+241,Precision,Logistic Regression,0.553927093049302,df_5k,crossValidation
+242,Precision,Logistic Regression,0.570352360382805,df_15k,crossValidation
+243,Precision,Logistic Regression,0.5687910592077339,df_50k,crossValidation
+244,Recall,Logistic Regression,0.5878812475306611,df_2k,crossValidation
+245,Recall,Logistic Regression,0.2607782328448253,df_5k,crossValidation
+246,Recall,Logistic Regression,0.2153246284645894,df_15k,crossValidation
+247,Recall,Logistic Regression,0.2263504680653703,df_50k,crossValidation
+248,Accuracy,Naive Bayes,0.7757009345794392,df_2k,holdout
+249,Accuracy,Naive Bayes,0.655,df_5k,holdout
+250,Accuracy,Naive Bayes,0.675,df_15k,holdout
+251,Accuracy,Naive Bayes,0.6555,df_50k,holdout
+252,Precision,Naive Bayes,0.603448275862069,df_2k,holdout
+253,Precision,Naive Bayes,0.4559585492227979,df_5k,holdout
+254,Precision,Naive Bayes,0.4946996466431095,df_15k,holdout
+255,Precision,Naive Bayes,0.4480552712384851,df_50k,holdout
+256,Recall,Naive Bayes,0.5833333333333334,df_2k,holdout
+257,Recall,Naive Bayes,0.5659163987138264,df_5k,holdout
+258,Recall,Naive Bayes,0.5815160955347871,df_15k,holdout
+259,Recall,Naive Bayes,0.5761763738071735,df_50k,holdout
+260,Accuracy,Naive Bayes,0.8218463428546355,df_2k,crossValidation
+261,Accuracy,Naive Bayes,0.6592,df_5k,crossValidation
+262,Accuracy,Naive Bayes,0.6553333333333333,df_15k,crossValidation
+263,Accuracy,Naive Bayes,0.6550200000000002,df_50k,crossValidation
+264,Precision,Naive Bayes,0.6392875674748637,df_2k,crossValidation
+265,Precision,Naive Bayes,0.4686126952329308,df_5k,crossValidation
+266,Precision,Naive Bayes,0.4540255421013975,df_15k,crossValidation
+267,Precision,Naive Bayes,0.4557872208942091,df_50k,crossValidation
+268,Recall,Naive Bayes,0.6022678122414556,df_2k,crossValidation
+269,Recall,Naive Bayes,0.5941038221811901,df_5k,crossValidation
+270,Recall,Naive Bayes,0.5764368951784851,df_15k,crossValidation
+271,Recall,Naive Bayes,0.5803779965896295,df_50k,crossValidation
+272,Accuracy,Random Forest,0.9228971962616822,df_2k,holdout
+273,Accuracy,Random Forest,0.694,df_5k,holdout
+274,Accuracy,Random Forest,0.6873333333333334,df_15k,holdout
+275,Accuracy,Random Forest,0.7043,df_50k,holdout
+276,Precision,Random Forest,0.8247422680412371,df_2k,holdout
+277,Precision,Random Forest,0.5095541401273885,df_5k,holdout
+278,Precision,Random Forest,0.5437665782493368,df_15k,holdout
+279,Precision,Random Forest,0.5331807780320366,df_50k,holdout
+280,Recall,Random Forest,0.8333333333333334,df_2k,holdout
+281,Recall,Random Forest,0.2588996763754045,df_5k,holdout
+282,Recall,Random Forest,0.2111225540679711,df_15k,holdout
+283,Recall,Random Forest,0.2296320630749014,df_50k,holdout
+284,Accuracy,Random Forest,0.890121100434382,df_2k,crossValidation
+285,Accuracy,Random Forest,0.6956,df_5k,crossValidation
+286,Accuracy,Random Forest,0.7020666666666667,df_15k,crossValidation
+287,Accuracy,Random Forest,0.7056,df_50k,crossValidation
+288,Precision,Random Forest,0.8179071964806474,df_2k,crossValidation
+289,Precision,Random Forest,0.5406046648202203,df_5k,crossValidation
+290,Precision,Random Forest,0.5421510967758181,df_15k,crossValidation
+291,Precision,Random Forest,0.5602616151829898,df_50k,crossValidation
+292,Recall,Random Forest,0.7122542029926625,df_2k,crossValidation
+293,Recall,Random Forest,0.2474115218802931,df_5k,crossValidation
+294,Recall,Random Forest,0.2256219554377678,df_15k,crossValidation
+295,Recall,Random Forest,0.2361331407095089,df_50k,crossValidation
+296,Accuracy,SVM,0.8574766355140186,df_2k,holdout
+297,Accuracy,SVM,0.697,df_5k,holdout
+298,Accuracy,SVM,0.6983333333333334,df_15k,holdout
+299,Accuracy,SVM,0.7052,df_50k,holdout
+300,Precision,SVM,0.859375,df_2k,holdout
+301,Precision,SVM,0.49411764705882355,df_5k,holdout
+302,Precision,SVM,0.5739130434782609,df_15k,holdout
+303,Precision,SVM,0.594,df_50k,holdout
+304,Recall,SVM,0.514018691588785,df_2k,holdout
+305,Recall,SVM,0.1390728476821192,df_5k,holdout
+306,Recall,SVM,0.07158351409978309,df_15k,holdout
+307,Recall,SVM,0.09763313609467456,df_50k,holdout
+308,Accuracy,SVM,0.8573713307884692,df_2k,crossValidation
+309,Accuracy,SVM,0.6926,df_5k,crossValidation
+310,Accuracy,SVM,0.6974666666666667,df_15k,crossValidation
+311,Accuracy,SVM,0.6986600000000001,df_50k,crossValidation
+312,Precision,SVM,0.8247856759504467,df_2k,crossValidation
+313,Precision,SVM,0.576383042245111,df_5k,crossValidation
+314,Precision,SVM,0.593984885313305,df_15k,crossValidation
+315,Precision,SVM,0.5994098605035797,df_50k,crossValidation
+316,Recall,SVM,0.530620284221584,df_2k,crossValidation
+317,Recall,SVM,0.123826898738516,df_5k,crossValidation
+318,Recall,SVM,0.06995982937994112,df_15k,crossValidation
+319,Recall,SVM,0.08590247942898806,df_50k,crossValidation
